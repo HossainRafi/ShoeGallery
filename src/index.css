@@ -61,4 +61,9 @@
   .text-gradient {
     @apply text-transparent bg-clip-text bg-gradient-to-tr from-blue-500 to-sky-500;
   }
+
+  /* border */ 
+  .rounded-theme {
+    border-radius: 5% 100% 10% 5%;
+  }
 }
