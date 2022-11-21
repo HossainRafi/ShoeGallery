@@ -1,13 +1,14 @@
 import React from "react";
 import { Hero, Sales } from "./components";
-import { heroapi } from "./data/data.js";
+import { heroapi, popularsales, toprateslaes } from "./data/data.js";
 
 const App = () => {
   return (
     <>
       <main>
         <Hero heroapi={heroapi} />
-        <Sales />
+        <Sales endpoint={popularsales} />
+        <Sales endpoint={toprateslaes} />
       </main>
     </>
   );

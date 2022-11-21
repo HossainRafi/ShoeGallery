@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import Item from "./utils/Item";
+import Title from "./utils/Title";
 
-const Sales = () => {
+const Sales = ({ endpoint: { title, items } }) => {
   return (
-      <>
-          Sales
-      </>
-  )
-}
+    <>
+      <div>
+        <Title title={title} />
+        <div>
+          <Item />
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Sales
+export default Sales;
