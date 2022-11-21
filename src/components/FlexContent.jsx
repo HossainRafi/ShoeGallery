@@ -27,7 +27,7 @@ const FlexContent = ({
           >
             <button
               type="button"
-              
+              className="button-theme bg-slate-900 shadow-slate-900 text-slate-100 py-1.5"
             >
               {btn}
             </button>
@@ -36,7 +36,11 @@ const FlexContent = ({
         <div className="flex items-center justify-center max-w-xl relative lg:max-w-none w-full">
           <img
             src={img}
-            
+            className={`w-auto object-fill transitions-theme ${
+              ifExists
+                ? "h-60 lg:h-56 md:h-52 sm:h-44 xsm:h-36 rotate-6 hover:-rotate-12"
+                : "h-72 lg:h-64 md:h-60 sm:h-48 xsm:h-40 rotate-[19deg] hover:rotate-12"
+            }`}
           />
         </div>
       </div>
