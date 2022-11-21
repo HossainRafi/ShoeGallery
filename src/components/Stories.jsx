@@ -3,7 +3,7 @@ import Title from "./utils/Title";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
 import { HeartIcon } from "@heroicons/react/24/solid";
-import { ClockIcon, HashtagIcon } from '@heroicons/react/24/outline';
+import { ClockIcon, HashtagIcon } from "@heroicons/react/24/outline";
 
 const Stories = ({ story: { title, news } }) => {
   return (
@@ -30,6 +30,13 @@ const Stories = ({ story: { title, news } }) => {
                     <div>
                       <HashtagIcon className="icon-style" />
                       <span>{val.by}</span>
+                    </div>
+                    <div>
+                      <h1>{val.title}</h1>
+                      <p>{val.text}</p>
+                    </div>
+                    <div>
+                      <a href={val.url}>{val.btn}</a>
                     </div>
                   </div>
                 </div>
