@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Sales } from "./components";
+import { FlexContent, Hero, Sales } from "./components";
 import { heroapi, popularsales, toprateslaes } from "./data/data.js";
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
         <Hero heroapi={heroapi} />
         <Sales endpoint={popularsales} ifExists />
         <Sales endpoint={toprateslaes} />
+        <FlexContent />
       </main>
     </>
   );
