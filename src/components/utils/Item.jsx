@@ -16,7 +16,6 @@ const Item = ({
   rating,
   price,
 }) => {
-  //   console.log(id)
   const dispatch = useDispatch();
 
   const onAddToCart = () => {
