@@ -62,7 +62,7 @@ const Cart = () => {
             <CartEmpty onCartToggle={onCartToggle} />
           ) : (
             <div>
-              <div className="flex items-start justify-start flex-col gap-y-7 lg:gap-y-5 overflow-y-scroll h-[81vh] scroll-smooth scroll-hidden py-3">
+              <div className="flex items-start justify-start flex-col gap-y-7 lg:gap-y-5 overflow-y-scroll h-[81vh] scroll-smooth scroll-hidden pt-3 pb-10">
                 {cartItems?.map((item, i) => (
                   <CartItem key={i} item={item} />
                 ))}
