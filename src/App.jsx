@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Cart,
   FlexContent,
   Footer,
   Hero,
@@ -21,6 +22,7 @@ const App = () => {
   return (
     <>
       <Navbar />
+      <Cart />
       <main className="flex flex-col gap-16 relative">
         <Hero heroapi={heroapi} />
         <Sales endpoint={popularsales} ifExists />
