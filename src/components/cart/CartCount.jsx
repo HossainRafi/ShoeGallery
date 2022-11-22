@@ -10,7 +10,10 @@ const CartCount = ({ onCartToggle, totalQTY, onClearCartItems }) => {
             className="grid items-center cursor-pointer"
             onClick={onCartToggle}
           >
-            <ChevronDoubleLeftIcon className="w-5 h-5 text-slate-900 hover:text-orange-500 stroke-[2]" />
+            <ChevronDoubleLeftIcon
+              className="w-5 h-5 text-slate-900 hover:text-orange-500 
+            stroke-[2]"
+            />
           </div>
           <div className="grid items-center">
             <h1 className="text-base font-medium text-slate-900">
