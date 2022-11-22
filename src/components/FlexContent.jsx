@@ -33,7 +33,7 @@ const FlexContent = ({
             </button>
           </a>
         </div>
-        <div className="flex items-center justify-center max-w-xl relative lg:max-w-none w-full">
+        <div className="flex items-center justify-center max-w-xl relative lg:max-w-none w-full mt-5">
           <img
             src={img}
             className={`w-auto object-fill transitions-theme ${
