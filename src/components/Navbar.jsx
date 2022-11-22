@@ -49,7 +49,6 @@ const Navbar = () => {
           <div className="flex items-center">
             <img
               src={logo}
-              alt="logo/img"
               className={`w-16 h-auto ${navState && "filter brightness-0"}`}
             />
           </div>
