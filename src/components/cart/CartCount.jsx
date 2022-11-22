@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const CartCount = () => {
   return (
-    <div>CartCount</div>
-  )
-}
+    <>
+      <div></div>
+    </>
+  );
+};
 
-export default CartCount
+export default CartCount;

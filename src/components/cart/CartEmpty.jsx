@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const CartEmpty = () => {
   return (
-    <div>CartEmpty</div>
-  )
-}
+    <>
+      <div></div>
+    </>
+  );
+};
 
-export default CartEmpty
+export default CartEmpty;
