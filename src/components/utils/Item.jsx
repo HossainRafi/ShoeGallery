@@ -94,7 +94,7 @@ const Item = ({
             className={`transitions-theme hover:-rotate-12 ${
               ifExists
                 ? "h-auto w-56 lg:w-48 md:w-40 -rotate-[35deg]"
-                : "h-28 w-56"
+                : "h-28 w-56 pt-4"
             }`}
           />
         </div>
