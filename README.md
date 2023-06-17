@@ -1,4 +1,4 @@
-# Project Name: [ShoeHouse](https://shoe-house.netlify.app)
+# Project Name: [ShoeGallery](https://shoe-house.netlify.app)
 
 ## Project Live Link: https://shoe-house.netlify.app
 
