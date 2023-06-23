@@ -1,9 +1,6 @@
 # Project Name: [ShoeGallery](https://shoe-house.netlify.app)
 
-## Project Live Link: https://shoe-house.netlify.app
-
-### Technology Used:
-
+## Technologies:
 - React.js
 - Redux
 - React-Redux
@@ -12,6 +9,6 @@
 - Tailwind
 - React-Hot-Toast
 
-<p>
-This is a React UI landing page design. Tailwnd CSS is added for designed this website. User can add product to cart and can remove product from cart. Price and quantity will increase or decrase if user add or remove product. This website is fully responsive for every devices.
-</p>
+## Project Description:
+### This is a single page React E-commerce Front-end design. This app is fully responsive for every devices. Many modern technologies are used to build this application. Some main features of this website are:-
+- 
