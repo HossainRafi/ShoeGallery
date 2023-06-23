@@ -25,7 +25,3 @@
 ![app image](https://i.ibb.co/M9ZPjFN/2.png)
 ![app image](https://i.ibb.co/s67tn2y/3.png)
 ![app image](https://i.ibb.co/WFRgtQz/4.png)
-
-
-
-
